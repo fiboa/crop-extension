@@ -1,0 +1,13 @@
+$schema: https://fiboa.github.io/schema/v0.1.0/schema.json
+required:
+  - crop:code_list
+  - crop:code
+properties:
+  crop:code_list:
+    type: string
+  crop:code:
+    type: string
+  crop:name:
+    type: string
+  crop:name_en:
+    type: string
