@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fiboa-cli = ">=0.3"
+fiboa-cli = ">=0.8.0"
 pymarkdownlnt = ">=0.9"
 
 [scripts]
