@@ -35,9 +35,11 @@
     ]
   },
   "properties": {
-    "determination_datetime": "2020-01-01T00:00:00Z",
-    "template:field1": 1,
-    "template:field2": "abc"
+    "determination_datetime": "2023-01-01T00:00:00Z",
+    "crop:code_list": "https://github.com/maja601/EuroCrops/blob/main/csvs/country_mappings/dk_2019.csv",
+    "crop:name": "Vårbyg",
+    "crop:code": "1",
+    "crop:name_en": "Spring barley"
   },
   "links": [
     {
