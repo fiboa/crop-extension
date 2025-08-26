@@ -1,13 +1,14 @@
 # Crop Extension Specification
 
 - **Title:** Crop
-- **Identifier:** <https://fiboa.github.io/crop-extension/v0.1.0/schema.yaml>
+- **Identifier:** <https://fiboa.org/crop-extension/v0.2.0/schema.yaml>
 - **Property Name Prefix:** crop
 - **Extension Maturity Classification:** Proposal
 - **Owner**: @ivorbosloper
 
 This document explains the Crop extension to the
-[Field Boundaries for Agriculture (fiboa) Specification](https://github.com/fiboa/specification).
+[Field Boundaries for Agriculture (fiboa)](https://fiboa.org) and
+[Vecorel](https://vecorel.org) specifications.
 
 Many published crop field datasets use a crop code list to identify the crop on each crop field. This extension
 harmonizes the columns to describe a coding list, a crop code and a crop name.
@@ -23,11 +24,6 @@ A valid value for `crop:code_list` would be `https://github.com/maja601/EuroCrop
 - [Changelog](./CHANGELOG.md)
 
 ## Properties
-
-The properties in the table below can be used in these parts of fiboa documents:
-
-- [x] Collection
-- [x] Feature Properties
 
 | Property Name  | Type   | Description                          |
 | -------------- | ------ | ------------------------------------ |

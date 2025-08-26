@@ -1,6 +1,13 @@
 {
+  "schemas": {
+    "example": [
+      "https://vecorel.org/specification/v0.1.0/schema.yaml",
+      "https://fiboa.org/specification/v0.3.0/schema.yaml",
+      "https://fiboa.org/crop-extension/v0.2.0/schema.yaml"
+    ]
+  },
   "type": "Feature",
-  "id": "example",
+  "id": "DEBBLI0260100301",
   "bbox": [
     172.91173669923782,
     1.3438851951615003,
@@ -35,17 +42,11 @@
     ]
   },
   "properties": {
-    "determination_datetime": "2023-01-01T00:00:00Z",
+    "collection": "example",
+    "determination:datetime": "2023-01-01T00:00:00Z",
     "crop:code_list": "https://github.com/maja601/EuroCrops/blob/main/csvs/country_mappings/dk_2019.csv",
     "crop:name": "Vårbyg",
     "crop:code": "1",
     "crop:name_en": "Spring barley"
-  },
-  "links": [
-    {
-      "rel": "collection",
-      "href": "collection.json",
-      "type": "application/json"
-    }
-  ]
+  }
 }
