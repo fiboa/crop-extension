@@ -1,0 +1,13 @@
+$schema: https://vecorel.org/sdl/v0.2.0/schema.json
+required:
+  - crop:code_list
+  - crop:code
+properties:
+  crop:code_list:
+    type: string
+  crop:code:
+    type: string
+  crop:name:
+    type: string
+  crop:name_en:
+    type: string
